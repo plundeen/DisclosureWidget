@@ -9,7 +9,7 @@ There are two separate `XControls`: one for horizontal expand/collapse behavior,
 * Demos:
   * <details>
         <summary>Initial setup</summary>
-        <img src=img/xcontrol_expand.gif width=80%></img>
+        <img src=img/init.gif width=80%></img>
         <br>
         <i>Hey, this is a DisclosureWidget, too!</i>
         <br>
