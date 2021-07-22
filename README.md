@@ -21,6 +21,14 @@ There are two separate `XControls`: one for horizontal expand/collapse behavior,
         <i>Hey, this is a DisclosureWidget, too!</i>
         <br>
     </details>
+  * <details>
+        <summary>Dynamic resizing/tweaking</summary>
+        <img src=img/dynamic_resize.gif width=80%></img>
+        <br>
+        <p>You can see the size adjust dynamically as you tweak the value in the prompt, so you can really dial it in!</p>
+        <p>Note that this relies on Value Change events, so you need to leave keyfocus or leverage the up/down arrows to trigger the resizing. Try using up/down arrows at different digits in the value to change the magnitude of adjustments!</p>
+        <br>
+    </details>
 
 
 * Right-click on an instance of either `xcontrol` to specify the number of pixels to expand the front panel.
