@@ -25,6 +25,7 @@ There are two separate `XControls`: one for horizontal expand/collapse behavior,
   * This makes it easy to adjust the expanded size during development.
   * **Note**: the `xcontrols` ignore right-clicks at **runtime**, but <u>you may reach the "Size" shortcut menu option at runtime by <span style="color:red">CTRL+right-clicking</span> on it</u>.
     <img src=img/edit_time_menu.png width=50%><img src=img/run_time_menu.png width=50%>
+  * _Rationale_: the expectation is that configuration will be done at edit-time, and we probably don't want to expose the "Size" menu option to end-users at runtime. But it _can_ be a valuable debug tool, so it is "hidden" (security through obscurity!) behind a CTRL+click interaction to make it less likely that a user will stumble upon it.
 
 # Caveats / Known Issues
 
