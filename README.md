@@ -6,13 +6,21 @@ There are two separate `XControls`: one for horizontal expand/collapse behavior,
 
 # Features / Usage
 
-<details>
-    <summary>Demo gif</summary>
-    <img src=img/xcontrol_expand.gif width=100%></img>
-    <br>
-    <i>Hey, this is a DisclosureWidget, too!</i>
-    <br>
-</details>
+* Demos:
+  * <details>
+        <summary>Initial setup</summary>
+        <img src=img/xcontrol_expand.gif width=80%></img>
+        <br>
+        <i>Hey, this is a DisclosureWidget, too!</i>
+        <br>
+    </details>
+  * <details>
+        <summary>Expanding along both axes</summary>
+        <img src=img/expand_2d.gif width=80%></img>
+        <br>
+        <i>Hey, this is a DisclosureWidget, too!</i>
+        <br>
+    </details>
 
 
 * Right-click on an instance of either `xcontrol` to specify the number of pixels to expand the front panel.
