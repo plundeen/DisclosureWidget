@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-21 16:56:12" Modified_Date="2021-07-22 16:31:37" Creator="plundeen" Comments="" ID="a21b539d998c47bbfa75af4ae326e3cc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-21 16:56:12" Modified_Date="2021-07-27 09:04:28" Creator="plundeen" Comments="" ID="571ebe6c858b67c16dfc8aff53e41176">
   <Library_General_Settings>
     <Package_File_Name>TAE_Technologies_lib_Expand_Collapse_Buttons</Package_File_Name>
-    <Library_Version>1.4.0.8</Library_Version>
+    <Library_Version>1.5.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -45,9 +45,9 @@ See https://github.com/plundeen/DisclosureWidget</Description>
       <Copyright/>
       <Packager>Phil Lundeen</Packager>
       <URL>https://github.com/plundeen/DisclosureWidget</URL>
-      <Release_Notes>Size prompt enhancements:
-* prompt is centered on xcontrol owning window
-* resize triggered by prompt input valuechange, so you can tweak the value without closing and reopening</Release_Notes>
+      <Release_Notes>Expand/Collapse behavior improved when owning panel contains splitters.
+Still not perfect in all situations, but better.
+Also improves boolean image and control padding.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -228,7 +228,7 @@ See https://github.com/plundeen/DisclosureWidget</Description>
         <Path>..\src\UI Tools</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63C54CB745BE79250A2A886309091FF3</GUID>
+      <GUID>325D1240E9D6CA4546178E7F54122794</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -263,7 +263,7 @@ See https://github.com/plundeen/DisclosureWidget</Description>
         <Path>..\src\Expand-Collapse</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6479A757A4CF31674FBC6A8DC578A14</GUID>
+      <GUID>753BAF48404C4435D68BB682D5C9E502</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -312,7 +312,7 @@ See https://github.com/plundeen/DisclosureWidget</Description>
         <Path>..\src\Horizontal\ExpandHorizontal.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCB1BA0B54FDECC38D3C5DB404918657</GUID>
+      <GUID>4309CF4861688725B8BA297B08B4640A</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
